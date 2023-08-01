@@ -126,7 +126,8 @@ footer section {
 /*Sobrenosotros*/
 
 .sobrenosotros__flex{
-    display: flex;    
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .sobrenosotros__parrafo{
