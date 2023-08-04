@@ -73,8 +73,8 @@ header{
 }
 
 .box-1{
-    width: 400px;
-    height: 250;
+    width: 360px;
+    height: 250px;
     overflow: auto;
     margin: 10px;
     margin-top: 0px;
@@ -85,7 +85,7 @@ header{
 
 .box-2{
     background-color: aquamarine;
-    width: 400px;
+    width: 360px;
     height: 250px;
     overflow: auto;
     margin: 10px;
@@ -97,7 +97,7 @@ header{
 
 .box-3{
     background-color: aquamarine;
-    width: 390px;
+    width: 360px;
     height: 250px;
     overflow: auto;
     margin: 20px;
@@ -133,4 +133,12 @@ footer section {
 .sobrenosotros__parrafo{
     align-items: center;
     
+}
+
+.index__flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center
 }

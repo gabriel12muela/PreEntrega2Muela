@@ -12,32 +12,39 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </head>
 <body>
-    <!--menu-->
-    <header class="menu__flex">
-        <nav id="nav"> 
-            <span class="logo">
-                <a href="./index.html">
-                <img src="./assets/img/Logo_NeumaticosYA.png" width="200" alt="logo">
+    <!--menu con bootstrap-->
+    <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html">
+                <img src="./assets/img/Logo_NeumaticosYA.png" width="250" alt="logo"> 
+            </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./paginas/sobrenosotros.html">Sobre Nosotros</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="./paginas/clientes.html">clientes</a>
                 </a>
-            </span>            
-            <ul> 
-                <li> 
-                    <a href="./paginas/sobrenosotros.html">sobre nosotros</a>      
-                </li>
-                <li>
-                    <a href="./paginas/clientes.html">clientes</a>
-                </li>
-                <li>
-                    <a href="./paginas/contacto.html">contacto</a>
-                </li>
-                <li>
-                    <a href="./paginas/estado-reposicion.html">estado reposicion</a>
-                </li>
-                
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./paginas/contacto.html" tabindex="-1" aria-disabled="true">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./paginas/estado-reposicion.html">Estado Reposicion</a>
+              </li>
             </ul>
-        </nav>
+          </div>
+        </div>
+      </nav>
     </header>
     <!--contenido-->
  <main>
@@ -45,7 +52,7 @@
       <img src="./assets/img/ruedas-1.jpg" alt="cubiertas" width="100%" height="280">
       <h1>Bienvenidos</h1>
     </div>
-    <section>
+    <section  class="index__flex">
         <div class="box-1 box">
             <iframe src="https://www.youtube.com/embed/n7A2zJBJrZg" title="YouTube video player" frameborder="0" width="400" height="250"></iframe>
         </div>
