@@ -81,11 +81,13 @@ header{
     height: 400px;
     margin: auto;
     gap: 20px;
+    
 }
 
 .index__grid-box-2{
     display: flex;
     justify-content: space-evenly;
+    
 }
 
 .index__grid-box-3{
@@ -93,7 +95,10 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    
     }
+
+
 
 footer h2 {
     display: inline-block;
@@ -140,4 +145,22 @@ footer section {
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center
+}
+ /*clientes*/
+
+.slide{
+  margin-top: 20px;
+  margin: auto;
+  width: 60%;
+
+}   
+
+.slide img {
+ height: 400px
+}
+
+.parrafo-cliente{
+    display: block;
+    margin: 20px auto;
+   width: 60%;
 }
